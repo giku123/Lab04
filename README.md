@@ -1,12 +1,9 @@
 # Lab04
-Rescrieți codul jocului de la laboratorul anterior
-Explicație
-Point – Reprezintă un punct pe hartă, cu coordonate x și y.
-Direction – Enumerație care definește direcțiile în care se poate mișca șarpele.
-SnakeGame – Clasa care implementează logica jocului:
-render(): Afișează starea curentă a jocului (șarpele, peretele, hrana, scorul).
-input(): Gestionează inputul de la tastatură.
-logic(): Mișcă
-
+Detalii implementare
+Clasele principale: Board, Snake, Apple, Direction, Painter, etc.
+Smart Pointers: Sunt folosite pentru a gestiona automat memoriile obiectelor.
+STL Containers: În loc de vectori tradiționali, am folosit std::vector pentru gestionarea elementelor.
+Fluxuri de intrare/ieșire: Pentru citirea și afișarea datelor din fișiere.
+Algoritmi STL: Folosiți pentru căutare, comparare și copiere de date.
 
 
